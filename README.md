@@ -1,3 +1,16 @@
+# SET UP & USING EXPO
+In terminal, navigate to /friendsfirst and type:
+npx expo start
+
+This will prompt you to install the packages needed for expo to run.
+
+e.g. it will look like this:
+Need to install the following packages:
+expo@52.0.39
+Ok to proceed? (y) y
+
+Now using "npx expo start" will generate a QR code. Use your phone to scan this code and it will direct you to the app and run the front end on it.
+
 # friendsfirst
 
 University can be isolating, especially for new or international students who struggle to find study partners or make meaningful connections. Traditional networking happens randomly or through large, impersonal group chats, making it difficult to find the right people to collaborate with.
