@@ -1,5 +1,6 @@
 # SET UP & USING EXPO
 In terminal, navigate to /friendsfirst and type:
+
 npx expo start
 
 This will prompt you to install the packages needed for expo to run.
