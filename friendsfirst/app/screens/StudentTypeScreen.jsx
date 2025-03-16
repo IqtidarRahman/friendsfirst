@@ -26,6 +26,13 @@ export default function PronounsScreen({ navigation }) {
 }
 
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#fff", // ✅ Ensures white background
+    justifyContent: "center",
+    alignItems: "center",
+    paddingHorizontal: 20,
+  },
   checkbox: { flexDirection: "row", alignItems: "center", marginVertical: 10, padding: 10, borderWidth: 2, borderRadius: 5 },
   selected: { backgroundColor: "#6EC1E4" },
 });

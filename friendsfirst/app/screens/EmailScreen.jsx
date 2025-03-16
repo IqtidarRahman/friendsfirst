@@ -24,7 +24,7 @@ export default function EmailScreen({ navigation }) {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, justifyContent: "center", alignItems: "center", paddingHorizontal: 20 },
+  container: { flex: 1, justifyContent: "center", alignItems: "center", paddingHorizontal: 20, backgroundColor: "#fff" },
   title: { fontSize: 28, fontWeight: "bold", marginBottom: 30 },
   label: { alignSelf: "flex-start", fontSize: 16, marginBottom: 5 },
   input: { width: "100%", height: 50, borderWidth: 2, borderColor: "#000", borderRadius: 10, paddingHorizontal: 10, fontSize: 16, marginBottom: 20 },
