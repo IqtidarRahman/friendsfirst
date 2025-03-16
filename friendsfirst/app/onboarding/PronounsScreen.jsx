@@ -18,7 +18,7 @@ export default function PronounsScreen({ navigation }) {
           <Text>{item}</Text>
         </TouchableOpacity>
       ))}
-      <TouchableOpacity style={styles.button} onPress={() => router.push("screens/Gender")}>
+      <TouchableOpacity style={styles.button} onPress={() => router.push("onboarding/GenderScreen")}>
         <Text style={styles.buttonText}>Continue</Text>
       </TouchableOpacity>
     </View>

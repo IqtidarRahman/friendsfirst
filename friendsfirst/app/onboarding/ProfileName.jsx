@@ -27,7 +27,7 @@ export default function profileName() {
         onChangeText={setLastName}
       />
 
-      <TouchableOpacity style={styles.button}>
+      <TouchableOpacity style={styles.button} onPress={() => router.push("onboarding/EmailScreen")}>
         <Text style={styles.buttonText}>Continue</Text>
       </TouchableOpacity>
     </View>

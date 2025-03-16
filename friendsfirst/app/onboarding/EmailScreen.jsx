@@ -16,7 +16,7 @@ export default function EmailScreen({ navigation }) {
         value={email}
         onChangeText={setEmail}
       />
-      <TouchableOpacity style={styles.button} onPress={() => router.push("screens/DOBScreen")}>
+      <TouchableOpacity style={styles.button} onPress={() => router.push("onboarding/DOBScreen")}>
         <Text style={styles.buttonText}>Continue</Text>
       </TouchableOpacity>
     </View>

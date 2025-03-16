@@ -11,7 +11,7 @@ export default function DOBScreen({ navigation }) {
       <Text style={styles.title}>When were you born?</Text>
       <Text style={styles.label}>Enter your DOB</Text>
       <TextInput style={styles.input} placeholder="DD/MM/YYYY" value={dob} onChangeText={setDob} />
-      <TouchableOpacity style={styles.button} onPress={() => router.push("screens/PronounsScreen")}>
+      <TouchableOpacity style={styles.button} onPress={() => router.push("onboarding/PronounsScreen")}>
         <Text style={styles.buttonText}>Continue</Text>
       </TouchableOpacity>
     </View>

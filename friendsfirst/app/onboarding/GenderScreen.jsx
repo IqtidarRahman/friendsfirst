@@ -13,12 +13,12 @@ export default function PronounsScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Share your pronouns!</Text>
-      {["She/Her", "He/Him", "They/Them", "Other"].map((item) => (
+      {["Female", "Male", "Non-Binary", "Other"].map((item) => (
         <TouchableOpacity key={item} style={[styles.checkbox, selectedPronouns === item && styles.selected]} onPress={() => handleSelect(item)}>
           <Text>{item}</Text>
         </TouchableOpacity>
       ))}
-      <TouchableOpacity style={styles.button} onPress={() => router.push("screens/GenderScreen")}>
+      <TouchableOpacity style={styles.button} onPress={() => router.push("onboarding/LookingForScreen")}>
         <Text style={styles.buttonText}>Continue</Text>
       </TouchableOpacity>
     </View>
